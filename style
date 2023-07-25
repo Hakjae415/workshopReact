@@ -1,0 +1,51 @@
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+    font-size: 20px
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+/* .circle {
+    background-color:
+} */
+
+
+.circle {
+    border: 1px solid #070707;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 30px;
+}
+
+.square {
+    border: 1px solid #070707;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 30px;
+}
+/* 
+div.circle[idname="Circle1"] {
+    background-color: 
+}
+
+div.circle[idname="Circle2"] {
+    background-color:
+}
+
+div.circle[idname="Circle3"] {
+    background-color:
+} */
+
