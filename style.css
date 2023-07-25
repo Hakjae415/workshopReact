@@ -2,18 +2,14 @@ ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px; 
-    font-size: 20px
+    font-size: 22px;
+    margin: 0px;
 }
 
 img {
     max-width: 100%;
     height:auto;
 }
-
-/* .circle {
-    background-color:
-} */
-
 
 .circle {
     border: 1px solid #070707;
@@ -22,8 +18,8 @@ img {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
-    margin: 30px;
+    width: 25rem;
+    margin: 55px
 }
 
 .square {
@@ -33,19 +29,23 @@ img {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
-    margin: 30px;
-}
-/* 
-div.circle[idname="Circle1"] {
-    background-color: 
+    width: 25rem;
+    margin: 55px;
 }
 
-div.circle[idname="Circle2"] {
-    background-color:
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large
 }
 
-div.circle[idname="Circle3"] {
-    background-color:
-} */
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+body {
+    background-color: lightslategray;
+}
